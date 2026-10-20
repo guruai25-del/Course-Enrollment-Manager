@@ -1,0 +1,52 @@
+{
+  "students": [
+    {
+      "name": "Guru Rathod",
+      "email": "guru.rathod@example.com",
+      "phone": "9876512345",
+      "id": 1
+    },
+    {
+      "name": "Omkar B",
+      "email": "omkar.b@example.com",
+      "phone": "9845098450",
+      "id": 2
+    }
+  ],
+  "courses": [
+    {
+      "title": "Python Programming",
+      "duration": "8 weeks",
+      "fee": 6000,
+      "id": 1
+    },
+    {
+      "title": "Database Management",
+      "duration": "5 weeks",
+      "fee": 5000,
+      "id": 2
+    },
+    {
+      "title": "Java",
+      "duration": "6 week",
+      "fee": 4000,
+      "id": 3
+    }
+  ],
+  "enrollments": [
+    {
+      "studentId": 1,
+      "courseId": 1,
+      "enrolledOn": "2026-10-20",
+      "status": "Active",
+      "id": 1
+    },
+    {
+      "studentId": 2,
+      "courseId": 2,
+      "enrolledOn": "2026-10-20",
+      "status": "Active",
+      "id": 2
+    }
+  ]
+}
